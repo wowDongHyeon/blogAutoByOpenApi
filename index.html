@@ -92,7 +92,7 @@
     <div id="response"></div>
 
     <script>
-	
+
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function() {
 			  navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
@@ -104,7 +104,7 @@
 			  });
 			});
 		}
-	
+
         // JavaScript 코드
         document.getElementById('myForm').onsubmit = function(event) {
           event.preventDefault();
@@ -126,7 +126,7 @@
           // var myString = "안녕";
           // POST 요청으로 데이터를 서버에 보냅니다.
           //fetch('http://127.0.0.1:3000/chat', {
-		  fetch('https://port-0-chatgptapibynodejs-5mk12alp0lvrtf.sel5.cloudtype.app/https://port-0-chatgptapibynodejs-5mk12alp0lvrtf.sel5.cloudtype.app/chat', {
+		  fetch('https://port-0-chatgptapibynodejs-5mk12alp0lvrtf.sel5.cloudtype.app/chat', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
