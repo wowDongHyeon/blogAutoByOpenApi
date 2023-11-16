@@ -1,0 +1,15 @@
+{
+   "short_name":"MyApp",
+   "name":"My Blog Auto App",
+   "icons":[
+      {
+         "src":"/icon.png",
+         "sizes":"512x512"
+      }
+   ],
+   "start_url":"/",
+   "background_color":"#FFFFFF",
+   "display":"standalone",
+   "scope":"/",
+   "theme_color":"#FFFFFF"
+}
